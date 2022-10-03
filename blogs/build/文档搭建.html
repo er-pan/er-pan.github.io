@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vuepress文档搭建 | 时间说真话</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="icon" href="/img/favicon.ico">
+    <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?35b3a0c4fdbde28b9a5eeb65ee176e18";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+          </script>
+    <meta name="description" content="当你停下脚步的时候，你是否曾想过对于目前现状，是热爱还是迫爱？珍惜今天吧，以后的事由上帝去安排！">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.4288492c.css" as="style"><link rel="preload" href="/assets/js/app.8582f333.js" as="script"><link rel="preload" href="/assets/js/5.9c4912e0.js" as="script"><link rel="preload" href="/assets/js/1.49db5099.js" as="script"><link rel="preload" href="/assets/js/13.19ad3f4c.js" as="script"><link rel="prefetch" href="/assets/js/10.accf9c5a.js"><link rel="prefetch" href="/assets/js/11.311313d7.js"><link rel="prefetch" href="/assets/js/12.43053dd2.js"><link rel="prefetch" href="/assets/js/14.4d9f9249.js"><link rel="prefetch" href="/assets/js/15.fd08c1f9.js"><link rel="prefetch" href="/assets/js/16.389c9af2.js"><link rel="prefetch" href="/assets/js/17.ce8136fa.js"><link rel="prefetch" href="/assets/js/18.dbbd811a.js"><link rel="prefetch" href="/assets/js/19.6930ad31.js"><link rel="prefetch" href="/assets/js/20.af56c945.js"><link rel="prefetch" href="/assets/js/21.239abbec.js"><link rel="prefetch" href="/assets/js/22.d41957a8.js"><link rel="prefetch" href="/assets/js/23.b1bee5f6.js"><link rel="prefetch" href="/assets/js/24.0804b903.js"><link rel="prefetch" href="/assets/js/25.bac6040a.js"><link rel="prefetch" href="/assets/js/26.398c1887.js"><link rel="prefetch" href="/assets/js/3.98173212.js"><link rel="prefetch" href="/assets/js/4.0344d116.js"><link rel="prefetch" href="/assets/js/6.44713f90.js"><link rel="prefetch" href="/assets/js/7.ec79a382.js"><link rel="prefetch" href="/assets/js/8.16329bbc.js"><link rel="prefetch" href="/assets/js/9.da10c9e9.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.4288492c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-52d1ca1c><div data-v-52d1ca1c><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-52d1ca1c data-v-52d1ca1c><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-4d3be7b7 data-v-52d1ca1c data-v-52d1ca1c><h3 class="title" style="display:none;" data-v-4d3be7b7 data-v-4d3be7b7>时间说真话</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-4d3be7b7 data-v-4d3be7b7><input type="password" value="" data-v-4d3be7b7> <span data-v-4d3be7b7>Konck! Knock!</span> <button data-v-4d3be7b7>OK</button></label> <div class="footer" style="display:none;" data-v-4d3be7b7 data-v-4d3be7b7><span data-v-4d3be7b7><i class="iconfont reco-theme" data-v-4d3be7b7></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-4d3be7b7>vuePress-theme-reco</a></span> <span data-v-4d3be7b7><i class="iconfont reco-copyright" data-v-4d3be7b7></i> <a data-v-4d3be7b7><span data-v-4d3be7b7>时间说真话</span>
+            
+          <!---->
+          2022
+        </a></span></div></div> <div class="hide" data-v-52d1ca1c><div data-v-52d1ca1c><div id="smart" class="wrapper-page" style="background-image:url(https://picx.zhimg.com/80/v2-3afad658b44f596b10ec13b2b6d4299d_720w.jpg?source=1940ef5c);background-position-x:center;background-position-y:center;background-size:cover;background-repeat-x:no-repeat;background-repeat-y:no-repeat;" data-v-52d1ca1c><header class="navbar" data-v-52d1ca1c><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="时间说真话" class="logo"> <span class="site-name">时间说真话</span></a> <div class="links"><div id="dayNightSwitch" class="generalWrapper" data-v-68728e36><a class="click" data-v-68728e36><div class="onOff daySwitch" data-v-68728e36><div class="star star1" data-v-68728e36></div> <div class="star star2" data-v-68728e36></div> <div class="star star3" data-v-68728e36></div> <div class="star star4" data-v-68728e36></div> <div class="star star5" data-v-68728e36></div> <div class="star sky" data-v-68728e36></div> <div class="sunMoon" data-v-68728e36><div class="crater crater1" data-v-68728e36></div> <div class="crater crater2" data-v-68728e36></div> <div class="crater crater3" data-v-68728e36></div> <div class="cloud part1" data-v-68728e36></div> <div class="cloud part2" data-v-68728e36></div></div></div></a></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      文章
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/html&amp;css/" class="nav-link"><i class="iconfont undefined"></i>
+  html&amp;css
+</a></li><li class="dropdown-item"><!----> <a href="/categories/文档搭建/" class="nav-link"><i class="iconfont undefined"></i>
+  文档搭建
+</a></li><li class="dropdown-item"><!----> <a href="/categories/javaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  javaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/javaScript-demo/" class="nav-link"><i class="iconfont undefined"></i>
+  javaScript-demo
+</a></li><li class="dropdown-item"><!----> <a href="/categories/小知识/" class="nav-link"><i class="iconfont undefined"></i>
+  小知识
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/about/" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-52d1ca1c></div> <aside class="sidebar" data-v-52d1ca1c><div class="personal-info-wrapper" data-v-29ed93a0 data-v-52d1ca1c><img src="/img/me.jpg" alt="author-avatar" class="personal-img" data-v-29ed93a0> <h3 class="name" data-v-29ed93a0>
+    时间说真话
+  </h3> <div class="num" data-v-29ed93a0><div data-v-29ed93a0><h3 data-v-29ed93a0>14</h3> <h6 data-v-29ed93a0>文章</h6></div> <div data-v-29ed93a0><h3 data-v-29ed93a0>7</h3> <h6 data-v-29ed93a0>标签</h6></div></div> <hr data-v-29ed93a0></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      文章
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/html&amp;css/" class="nav-link"><i class="iconfont undefined"></i>
+  html&amp;css
+</a></li><li class="dropdown-item"><!----> <a href="/categories/文档搭建/" class="nav-link"><i class="iconfont undefined"></i>
+  文档搭建
+</a></li><li class="dropdown-item"><!----> <a href="/categories/javaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  javaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/javaScript-demo/" class="nav-link"><i class="iconfont undefined"></i>
+  javaScript-demo
+</a></li><li class="dropdown-item"><!----> <a href="/categories/小知识/" class="nav-link"><i class="iconfont undefined"></i>
+  小知识
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/about/" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-4d3be7b7 data-v-52d1ca1c><h3 class="title" style="display:none;" data-v-4d3be7b7 data-v-4d3be7b7>vuepress文档搭建</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-4d3be7b7 data-v-4d3be7b7><input type="password" value="" data-v-4d3be7b7> <span data-v-4d3be7b7>Konck! Knock!</span> <button data-v-4d3be7b7>OK</button></label> <div class="footer" style="display:none;" data-v-4d3be7b7 data-v-4d3be7b7><span data-v-4d3be7b7><i class="iconfont reco-theme" data-v-4d3be7b7></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-4d3be7b7>vuePress-theme-reco</a></span> <span data-v-4d3be7b7><i class="iconfont reco-copyright" data-v-4d3be7b7></i> <a data-v-4d3be7b7><span data-v-4d3be7b7>时间说真话</span>
+            
+          <!---->
+          2022
+        </a></span></div></div></div> <div data-v-52d1ca1c><main class="page"><div class="page-title" style="display:none;"><h1 class="title">vuepress文档搭建</h1> <div class="page-info" data-v-04a855f8><i class="iconfont reco-account" data-v-04a855f8><span data-v-04a855f8>时间说真话</span></i> <i class="iconfont reco-date" data-v-04a855f8><span data-v-04a855f8>2022-08-28</span></i> <i class="iconfont reco-eye" data-v-04a855f8><span id="/blogs/build/%E6%96%87%E6%A1%A3%E6%90%AD%E5%BB%BA.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-04a855f8><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="iconfont reco-tag tags" data-v-04a855f8><span class="tag-item" data-v-04a855f8>vuepress文档</span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><div class="custom-block tip"><p class="custom-block-title">简单介绍</p> <p>VuePress 是一个以 Markdown 为中心的静态网站生成器。你可以使用 Markdown 来书写内容（如文档、博客等），然后 VuePress 会帮助你生成一个静态网站来展示它们。</p></div> <h2 id="示例教程"><a href="#示例教程" class="header-anchor">#</a> 示例教程</h2> <p>这是一篇示例vuepress文档搭建，下面是几种方法供大家参考:</p> <h2 id="方法一"><a href="#方法一" class="header-anchor">#</a> 方法一</h2> <p>仔细参考<a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">官方文档<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，按需引入即可</p> <h2 id="方法二"><a href="#方法二" class="header-anchor">#</a> 方法二</h2> <p>回到桌面 👉  双击打开Chrome图标 👉   在地址栏输入: https://www.baidu.com 👉    在搜索框中输入你的问题 👉  回车键</p> <h2 id="方法三-不去官网直接看这里"><a href="#方法三-不去官网直接看这里" class="header-anchor">#</a> 方法三（不去官网直接看这里）</h2> <h5 id="像数-1-2-3-一样容易-官方是这么说的"><a href="#像数-1-2-3-一样容易-官方是这么说的" class="header-anchor">#</a> 像数 1, 2, 3 一样容易（官方是这么说的）</h5> <ol><li>创建并进入一个新目录（建议在磁盘D/E上执行）</li></ol> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">mkdir</span> vuepress-starter <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">cd</span> vuepress-starter
+</code></pre></div><ol start="2"><li>使用你喜欢的包管理器进行初始化</li></ol> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">yarn</span> init <span class="token comment"># npm init -y</span>
+</code></pre></div><ol start="3"><li>将 VuePress 安装为本地依赖</li></ol> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">yarn</span> <span class="token function">add</span> -D vuepress <span class="token comment"># npm install -D vuepress</span>
+</code></pre></div><ol start="4"><li><p>创建你的第一篇文档，VuePress 会以 docs 为文档根目录，所以这个 README.md 相当于主页：（README.md 也可在外面手动添加）</p> <div class="language- extra-class"><pre class="language-text"><code>mkdir docs &amp;&amp; echo '# Hello VuePress' &gt; docs/README.md
+</code></pre></div><p>编辑<code>README.md</code></p> <div class="language- extra-class"><pre class="language-text"><code>---
+home: true
+heroImage: /img/default.jpg
+actionText: 博客笔记 →
+heroText: 我的主页
+actionLink: /home/
+features:
+- title: 简洁至上
+  details: 使用最简单清晰的话语编写博客。
+- title: 注重逻辑
+  details: 知识点衔接紧密,注释明白,逻辑清楚。
+- title: 兴趣驱动
+  details: 丰富的代码案例,页面效果驱动学习。
+  footer: 时间说真话 | © 耳畔所有
+---
+</code></pre></div></li> <li><p>在<code>package.json</code> 中添加一些 <code>scripts</code></p></li></ol> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress dev docs&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress build docs&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="6"><li>在本地启动服务器</li></ol> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">yarn</span> docs:dev <span class="token comment"># npm run dev</span>
+</code></pre></div><p>VuePress 会在 http://localhost:8080 (opens new window)启动一个热重载的开发服务器。
+现在，已经有了一个简单可用的 VuePress 文档。接下来是 VuePress 中的基本配置。</p> <h2 id="基本配置"><a href="#基本配置" class="header-anchor">#</a> 基本配置</h2> <ol><li>在你的文档目录下创建一个 <code>.vuepress</code> 目录，所有 VuePress 相关的文件都将会被放在这里。你的项目结构可能是这样：</li></ol> <div class="language- extra-class"><pre class="language-text"><code>.
+├─ docs
+│  ├─ README.md
+│  └─ .vuepress
+└─ package.json
+</code></pre></div><ol start="2"><li>在 <code>.vuepress</code> 目录下新建一个 <code>config.js</code>，它是VuePress 网站必要的配置文件，它导出的是一个 JavaScript 对象：</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  title<span class="token operator">:</span> <span class="token string">'Hello VuePress'</span><span class="token punctuation">,</span>
+  description<span class="token operator">:</span> <span class="token string">'vuepress-starter blog'</span><span class="token punctuation">,</span>
+  port<span class="token operator">:</span> <span class="token string">'8080'</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>终端执行命令: <code>npm run dev</code>，访问<code>http://localhost:8080</code>，你应该能看到一个页面，它包含一个页头，里面包含一个标题和一个搜索框，接下的操作是添加 导航栏。</p> <h2 id="导航栏"><a href="#导航栏" class="header-anchor">#</a> 导航栏</h2> <p>自定义右上角的导航栏，修改<code>config.js</code>:</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    title<span class="token operator">:</span> <span class="token string">'Hello VuePress'</span><span class="token punctuation">,</span>
+    description<span class="token operator">:</span> <span class="token string">'vuepress-starter blog'</span><span class="token punctuation">,</span>
+    themeConfig<span class="token operator">:</span> <span class="token punctuation">{</span>
+        nav<span class="token operator">:</span> <span class="token punctuation">[</span>
+      		<span class="token punctuation">{</span>
+      		  text<span class="token operator">:</span> <span class="token string">'首页'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/'</span>
+      		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+      		<span class="token punctuation">{</span>
+      		  text<span class="token operator">:</span> <span class="token string">'文档搭建'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/home/build/'</span>
+      		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+      		<span class="token punctuation">{</span>
+      		  text<span class="token operator">:</span> <span class="token string">'Html&amp;Css'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/'</span>
+      		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+      		<span class="token punctuation">{</span>
+      		  text<span class="token operator">:</span> <span class="token string">'Js'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/home/js/'</span>
+      		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+      		<span class="token punctuation">{</span>
+      		  text<span class="token operator">:</span> <span class="token string">'Vue'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/home/vue/'</span>
+      		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+      		<span class="token punctuation">{</span>
+      		  text<span class="token operator">:</span> <span class="token string">'相关链接'</span><span class="token punctuation">,</span>
+      		  items<span class="token operator">:</span> <span class="token punctuation">[</span>
+      		    <span class="token punctuation">{</span> text<span class="token operator">:</span> <span class="token string">'GitHub'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'#'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      		    <span class="token punctuation">{</span> text<span class="token operator">:</span> <span class="token string">'erpan'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'#'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      		  <span class="token punctuation">]</span>
+      		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>更多配置请参考 <a href="https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%AF%BC%E8%88%AA%E6%A0%8F" target="_blank" rel="noopener noreferrer">VuePress导航栏<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>， 接下来的操作是 添加侧边栏</p> <h2 id="侧边栏"><a href="#侧边栏" class="header-anchor">#</a> 侧边栏</h2> <p>添加一些<code>Markdown(md)</code>文档，你的目录现在应该是这样的</p> <div class="language- extra-class"><pre class="language-text"><code>.
+├─ docs
+│  ├─ README.md
+│  └─ .vuepress
+│     └─ config.js
+|  └─ home
+|  	  └─ html&amp;css
+|         └─notes
+|         	└─04-盒模型.md
+|         	└─05-行内盒模型盒模型.md
+|         	└─css1.md
+|         	└─css2.md
+|         └─README.md
+|  	  └─ js
+|         └─notes
+|         	└─05-判断.md
+|         	└─06-循环.md
+|         └─README.md
+|  	  └─ vue
+|         └─notes
+|         	└─vue1.md
+|         	└─vue2.md
+|         └─README.md
+|  	  └─ README.md
+└─ package.json
+</code></pre></div><p>现在修改<code>config.js</code>，同时添加右边的侧边栏，配置如下：</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    themeConfig<span class="token operator">:</span> <span class="token punctuation">{</span>
+        nav<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    	sidebar<span class="token operator">:</span> <span class="token punctuation">[</span>
+    	  <span class="token punctuation">{</span>
+    	    title<span class="token operator">:</span> <span class="token string">'HTML'</span><span class="token punctuation">,</span>
+    	    collapsable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//折叠</span>
+    	    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+    	      <span class="token punctuation">{</span>
+    	        title<span class="token operator">:</span> <span class="token string">'盒模型'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/notes/04-盒模型'</span> <span class="token comment">//后缀 .md 可省略</span>
+    	      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	      <span class="token punctuation">{</span>
+    	        title<span class="token operator">:</span> <span class="token string">'行内盒模型'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/notes/05-行内盒模型'</span>
+    	      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	    <span class="token punctuation">]</span>
+    	  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	  <span class="token punctuation">{</span>
+    	    title<span class="token operator">:</span> <span class="token string">'CSS'</span><span class="token punctuation">,</span>
+    	    collapsable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    	    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+    	      <span class="token punctuation">{</span>
+    	        title<span class="token operator">:</span> <span class="token string">'CSS1'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/notes/CSS1'</span>
+    	      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	      <span class="token punctuation">{</span>
+    	        title<span class="token operator">:</span> <span class="token string">'CSS2'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/notes/CSS2'</span>
+    	      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	    <span class="token punctuation">]</span>
+    	  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	  <span class="token punctuation">{</span>
+    	    title<span class="token operator">:</span> <span class="token string">'js'</span><span class="token punctuation">,</span>
+    	    collapsable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    	    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+    	      <span class="token punctuation">{</span>
+    	        title<span class="token operator">:</span> <span class="token string">'判断'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/js/notes/05-判断'</span>
+    	      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	      <span class="token punctuation">{</span>
+    	        title<span class="token operator">:</span> <span class="token string">'循环'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/js/notes/06-循环'</span>
+    	      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	    <span class="token punctuation">]</span>
+    	  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	  <span class="token punctuation">{</span>
+    	    title<span class="token operator">:</span> <span class="token string">'VUE'</span><span class="token punctuation">,</span>
+    	    collapsable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    	    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+    	      <span class="token punctuation">{</span>
+    	        title<span class="token operator">:</span> <span class="token string">'v1'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/vue/notes/vue1'</span>
+    	      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	      <span class="token punctuation">{</span>
+    	        title<span class="token operator">:</span> <span class="token string">'v2'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/vue/notes/vue2'</span>
+    	      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	    <span class="token punctuation">]</span>
+    	  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	<span class="token punctuation">]</span><span class="token punctuation">,</span>
+        subSidebar<span class="token operator">:</span> <span class="token string">'auto'</span> <span class="token comment">//右边侧边栏</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="更换主题"><a href="#更换主题" class="header-anchor">#</a> 更换主题</h2> <p>我们可以直接使用开源主题，例：这里使用的主题是 <a href="https://vuepress-theme-reco.recoluan.com/" target="_blank" rel="noopener noreferrer">vuepress-theme-reco<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <ol><li><p>安装 <code>vuepress-theme-reco</code></p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> <span class="token function">install</span> vuepress-theme-reco --save-dev
+<span class="token comment"># or</span>
+<span class="token function">yarn</span> <span class="token function">add</span> vuepress-theme-reco -D
+</code></pre></div></li> <li><p>引入主题，修改<code>config.js</code>：</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// themeConfig[...],</span>
+  theme<span class="token operator">:</span> <span class="token string">'reco'</span>
+<span class="token punctuation">}</span> 
+</code></pre></div></li></ol> <h2 id="修改主题颜色"><a href="#修改主题颜色" class="header-anchor">#</a> 修改主题颜色</h2> <p>在 <code>.vuepress</code>目录下建一个<code>palette.styl</code>文件，此时你的目录结构应该是这样的</p> <div class="language- extra-class"><pre class="language-text"><code>.
+├─ docs
+│  ├─ README.md
+│  └─ .vuepress
+│     └─ config.js
+|     └─ styles
+|      └─palette.styl
+|  └─ home
+|  	  └─ html&amp;css
+|  	  	└─ ...
+|  	  └─ js
+|  	  	└─ ...
+|  	  └─ vue
+|  	  	└─ ...
+|  	  └─ README.md
+└─ package.json
+</code></pre></div><p><code>palette.styl</code> 代码:</p> <div class="language-stylus extra-class"><pre class="language-stylus"><code><span class="token variable-declaration"><span class="token variable">$accentColor</span> <span class="token operator">=</span> <span class="token hexcode">#3eaf7c</span></span>
+</code></pre></div><p>更多样式请参考 <a href="https://vuepress.vuejs.org/zh/config/#palette-styl" target="_blank" rel="noopener noreferrer">Vuepress-Styling<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>此时页面刷新，会发现一些细节的改变，比如加载时的 loading 动画、以及支持切换暗黑模式，注意：到这里只是引入了<code>reco</code>主题，还有诸多相关配置请参考 <a href="https://vuepress-theme-reco.recoluan.com/" target="_blank" rel="noopener noreferrer">vuepress-theme-reco<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 🐴🐮</p> <p><strong>最后再优化一下：为了让<code>config.js</code>文件看起来更简洁，修改如下：</strong></p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  title<span class="token operator">:</span> <span class="token string">'Hello VuePress'</span><span class="token punctuation">,</span>
+  description<span class="token operator">:</span> <span class="token string">'vuepress-starter blog'</span><span class="token punctuation">,</span>
+  port<span class="token operator">:</span> <span class="token string">'8080'</span><span class="token punctuation">,</span>
+  markdown<span class="token operator">:</span> <span class="token punctuation">{</span>
+    lineNumber<span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  themeConfig<span class="token operator">:</span> <span class="token punctuation">{</span>
+    nav<span class="token operator">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./nav.js&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    sidebar<span class="token operator">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./sidebar&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    collapsable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    subSidebar<span class="token operator">:</span> <span class="token string">'true'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>编辑<code>nav.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">'首页'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">'文档搭建'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/home/build/'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">'Html&amp;Css'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">'Js'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/home/js/'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">'Vue'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'/home/vue/'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">'相关链接'</span><span class="token punctuation">,</span>
+        items<span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span> text<span class="token operator">:</span> <span class="token string">'GitHub'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'#'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span> text<span class="token operator">:</span> <span class="token string">'erpan'</span><span class="token punctuation">,</span> link<span class="token operator">:</span> <span class="token string">'#'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span>
+</code></pre></div><p>编辑<code>sidebar.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token string">'/home/html&amp;css'</span><span class="token operator">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../home/html&amp;css/sidebar'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token string">'/home/js'</span><span class="token operator">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../home/js/sidebar'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token string">'/home/vue'</span><span class="token operator">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../home/vue/sidebar'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>现在你的目录结构应该是这样的：</p> <div class="language- extra-class"><pre class="language-text"><code>.
+├─ docs
+│  ├─ README.md
+│  └─ .vuepress
+│     └─ config.js
+│     └─ nav.js
+│     └─ sidebar.js
+|     └─ styles
+|      └─palette.styl
+|  └─ home
+|  	  └─ html&amp;css
+|         └─notes
+|         	└─04-盒模型.md
+|         	└─05-行内盒模型盒模型.md
+|         	└─css1.md
+|         	└─css2.md
+|         └─README.md
+|         └─sidebar.js
+|  	  └─ js
+|         └─notes
+|         	└─05-判断.md
+|         	└─06-循环.md
+|         └─README.md
+|         └─sidebar.js
+|  	  └─ vue
+|         └─notes
+|         	└─vue1.md
+|         	└─vue2.md
+|         └─README.md
+|         └─sidebar.js
+|  	  └─ README.md
+└─ package.json
+</code></pre></div><p>编辑文件下的<code>html&amp;css</code>的<code>sidebar.js</code>，其他文件类似操作</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    title<span class="token operator">:</span> <span class="token string">'HTML'</span><span class="token punctuation">,</span>
+    collapsable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        title<span class="token operator">:</span> <span class="token string">'盒模型'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/notes/04-盒模型'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        title<span class="token operator">:</span> <span class="token string">'行内盒模型'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/notes/05-行内盒模型'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    title<span class="token operator">:</span> <span class="token string">'CSS'</span><span class="token punctuation">,</span>
+    collapsable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        title<span class="token operator">:</span> <span class="token string">'CSS1'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/notes/CSS1'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        title<span class="token operator">:</span> <span class="token string">'CSS2'</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/home/html&amp;css/notes/CSS2'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span>
+</code></pre></div><p>到处结束操作，本地访问可以看到效果了 🎉🎉</p> <h2 id="部署github-pages"><a href="#部署github-pages" class="header-anchor">#</a> 部署GitHub Pages</h2> <p>到这一步说明你的vuepress文档已经基本搭建好了✈️，接下来部署到免费的 <code>Github Pages</code> 上。首先在 Github 上新建一个仓库，例：这里取仓库名为：<code>&lt;USERNAME&gt;.github.io</code>，注意：<code>&lt;USERNAME&gt;</code>应该与你的<code>GitHub</code>用户名保持一致</p> <ol><li>修改<code>config.js</code>，添加一个base路径配置:</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 路径名为 &quot;/&lt;REPO&gt;/&quot; 这里需要跟仓库同名</span>
+  <span class="token comment">// base: '/&lt;USERNAME&gt;.github.io/',</span>
+  <span class="token comment">// 如果你打算发布到 https://&lt;USERNAME&gt;.github.io/，默认配值 &quot;/&quot;</span>
+  base<span class="token operator">:</span> <span class="token string">'/'</span>
+  <span class="token comment">//...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>执行完以上操作后，最后你的<code>config.js</code>应该是这样的：</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  base<span class="token operator">:</span> <span class="token string">'/'</span><span class="token punctuation">,</span>
+  title<span class="token operator">:</span> <span class="token string">'Hello VuePress'</span><span class="token punctuation">,</span>
+  description<span class="token operator">:</span> <span class="token string">'vuepress-starter blog'</span><span class="token punctuation">,</span>
+  port<span class="token operator">:</span> <span class="token string">'8080'</span><span class="token punctuation">,</span>
+  markdown<span class="token operator">:</span> <span class="token punctuation">{</span>
+    lineNumber<span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  themeConfig<span class="token operator">:</span> <span class="token punctuation">{</span>
+    nav<span class="token operator">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./nav.js&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    sidebar<span class="token operator">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;./sidebar&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    collapsable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    subSidebar<span class="token operator">:</span> <span class="token string">'auto'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>在<code>vuepress-starter</code>目录下建立一个脚本文件：deploy.sh，注意修改一下对应的用户名和仓库名：</li></ol> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token shebang important">#!/usr/bin/env sh</span>
+
+<span class="token comment"># 确保脚本抛出遇到的错误</span>
+<span class="token builtin class-name">set</span> -e
+
+<span class="token comment"># 生成静态文件</span>
+<span class="token function">npm</span> run build
+
+<span class="token comment"># 进入生成的文件夹</span>
+- <span class="token builtin class-name">cd</span> docs/.vuepress/dist
+
+<span class="token function">git</span> init
+<span class="token function">git</span> <span class="token function">add</span> README.md <span class="token comment"># touch README.md</span>
+<span class="token function">git</span> commit -m <span class="token string">'first commit'</span>
+
+<span class="token comment"># 如果发布到 https://&lt;USERNAME&gt;.github.io</span>
+<span class="token function">git</span> push -f git@github.com:<span class="token operator">&lt;</span>USERNAME<span class="token operator">&gt;</span>/<span class="token operator">&lt;</span>USERNAME<span class="token operator">&gt;</span>.github.io.git master
+
+<span class="token builtin class-name">cd</span> -
+
+
+</code></pre></div><ol start="4"><li>修改<code>package.json</code>中的 <code>scripts</code>，添加:</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token string">&quot;deploy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;bash deploy.sh&quot;</span>
+</code></pre></div><p>到这里，你的目录结构应该是这样的：</p> <div class="language- extra-class"><pre class="language-text"><code>.
+├─ docs
+|   └─...
+├─ node_modules
+|   └─...
+├─ deploy.sh
+├─ package.json
+├─ package-lock.json
+├─ README.md
+</code></pre></div><p>最后在<code>vuepress-starter</code> 目录下，执行 <code>npm run deploy</code>，就会开始构建，然后提交到远程仓库的master分支，我们查看下对应仓库分支的代码。</p> <p>⚠️⚠️⚠️注意：</p> <p>这里运行<code>deploy</code>的方式为：通过右键<code>Git Bash here</code>，在此窗口下运行：<code>npm run deploy</code></p> <p>⚠️注意：如果通过上述方式运行出错了，建议手动上传远程仓库，详细操作参考：<strong>首页教程--置顶上传github文件</strong></p> <p>在仓库的 Settings -&gt; Pages 中看到最后的地址，例：https://er-pan.github.io，<a href="https://er-pan.github.io" target="_blank" rel="noopener noreferrer">时间说真话<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，</p> <p>⚠️注意：</p> <p>按照上述步骤如果没有出现链接地址，此时未必是你的操作步骤上出错了，也有可能是网站的原因，这时需要等待20分钟过后再刷新页面就能看到链接了。</p> <details class="custom-block details"><summary>⚠️注意：点击查看</summary> <p>参考这种方法要小心噢，若遇到问题(🤭🤭🤭)，建议结合官方文档进行下一步操作，👉 <a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">VuePress<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，或者下方留言 ⛹</p></details> <div class="custom-block tip"><p>最后按下鼠标滚轮可快速浏览 O(∩_∩)O哈哈~ ️</p></div></div> <footer class="page-edit" style="display:none;"><!----> <!----></footer> <!----> <!----> <!----></main> <!----></div></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/assets/js/app.8582f333.js" defer></script><script src="/assets/js/5.9c4912e0.js" defer></script><script src="/assets/js/1.49db5099.js" defer></script><script src="/assets/js/13.19ad3f4c.js" defer></script>
+  </body>
+</html>
